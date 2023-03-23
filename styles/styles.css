@@ -1,0 +1,124 @@
+head {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+p {
+  letter-spacing: -0.03em;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-top: 13px;
+  font-size: 30px;
+  line-height: 41px;
+}
+
+.container {
+  width: 1150px;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+.gray-chair {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../resources/grey-armchair.jpg");
+}
+
+.gray-chair-text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.aboutus {
+  margin: 30px 0 30px 0;
+  font-size: 45px;
+  line-height: 61px;
+}
+
+.seeservices {
+  display: block;
+  width: 255px;
+  height: 67px;
+  background-color: #ad1818;
+  border-radius: 5px;
+
+  line-height: 67px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  cursor: pointer;
+}
+
+.project__detail {
+  margin-top: 15px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 55px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+
+  color: #ad1818;
+}
+
+.project__description {
+  margin-bottom: 77px;
+}
+
+.see__all__projects {
+  display: block;
+  width: 100%;
+  height: 153px;
+
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  border-color: #ad1818;
+
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 153px;
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #ad1818;
+}
+
+.see__all__projects:hover {
+  background-color: #ad1818;
+  color: white;
+}
