@@ -51,23 +51,61 @@
               <div id="project" class="projects-inner">
                   <h2>ПРОЕКТЫ</h2>
                   <div class="project__description">
-                    <img class="project__image" src="resources/right coast.png" />
+                    <picture>
+                      <source srcset="resources/right-coast-mob.jpg" type="image/jpeg" media="(max-width: 575px)"> 
+                      <source srcset="resources/right coast.png" type="image/jpeg" media="(max-width: 767px)"> 
+                      <img src="resources/right coast.png" alt="Бордовый диван на фоне окна">
+                    </picture>
                     <h3 class="description-text">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
                     <a class="project__detail" href="/">Подробнее →</a>
                   </div>
                   <div class="project__description">
-                    <img class="project__image" src="resources/norwegian park.png" />
+                    <picture>
+                      <source srcset="resources/norwegian-park-mob.jpg" type="image/jpeg" media="(max-width: 575px)">
+                      <source srcset="resources/norwegian park.png" type="image/jpeg" media="(max-width: 767px)">
+                      <img class="project__image norwmob" src="resources/norwegian park.png" />
+                    </picture>
                     <h3 class="description-text">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
                     <a class="project__detail" href="/">Подробнее →</a>
                   </div>
                   <div class="project__description">
-                    <img class="project__image" src="resources/sosnovsky lakes.png" />
+                    <picture>
+                      <source srcset="resources/sosnovsky-lakes-mob.jpg" type="image/jpeg" media="(max-width: 575px)">
+                      <source srcset="resources/sosnovsky lakes.png" type="image/jpeg" media="(max-width: 767px)">
+                      <img class="project__image sosnmob" src="resources/sosnovsky lakes.png" />
+                    </picture>
                     <h3 class="description-text">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
                     <a class="project__detail" href="/">Подробнее →</a>
                   </div>
                   <a class="see__all__projects" href="/">Смотреть все проекты</a>
                 </div>
             </div>
+        </section>
+        <section class="services">
+          <div class="container">
+            <div class="services-inner">
+              <h2 class="text-in-black">УСЛУГИ</h2>
+              <div class="services-box-wrapper">
+                <div class="services-box">
+                  <img src="resources/planning.jpg" alt="Планировочное решение">
+                  <h3 class="text-in-black">Планировочное<br>решение</h3>
+                </div>
+                <div class="services-box">
+                  <img src="resources/design.jpg" alt="Дизайн-проект">
+                  <h3 class="text-in-black">Дизайн-проект</h3>
+                </div>
+                <div class="services-box">
+                  <img src="resources/supervision.jpg" alt="Авторский надзор">
+                  <h3 class="text-in-black">Авторский надзор</h3>
+                </div>
+                <div class="service-box">
+                  <img src="resources/equipment.jpg" alt="Комплектация">
+                  <h3 class="text-in-black">Комплектация</h3>
+                </div>
+                <button class="services-btn">Заказать услугу</button>
+              </div>
+            </div>
+          </div>
         </section>
         
     </main>
