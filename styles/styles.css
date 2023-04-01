@@ -3,6 +3,7 @@
 @import "/styles/intro.css";
 @import "/styles/projects.css";
 @import "/styles/services.css";
+@import "/styles/reviews.css";
 
 head {
   scroll-behavior: smooth;
