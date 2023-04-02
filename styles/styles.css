@@ -35,7 +35,7 @@ h2 {
 }
 
 h3 {
-  margin-top: 13px;
+  margin-top: 19px;
   font-size: 30px;
   line-height: 41px;
 }
@@ -45,20 +45,31 @@ h3 {
   margin: 0 auto;
 }
 
+.main-title {
+  margin-top: 128px;
+}
 @media (max-width: 1199px) {
   .container {
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 17px;
+    padding-right: 15px; */
   }
 
   .main-title {
+    width: 100%;
     font-size: 50px;
   }
 }
 
 @media (max-width: 767px) {
+ 
+  h2 {
+    font-size: 14px;
+    line-height: 19px;
+  }
   .main-title {
+    width: 100%;
+    margin-top: 109px;
     font-size: 30px;
     line-height: 32px;
   }
