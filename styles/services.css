@@ -117,16 +117,16 @@
   }
   .service-name {
     font-size: 18px;
-line-height: 25px;
+    line-height: 25px;
   }
   .services {
     padding: 0;
   }
   .service-price {
     font-size: 14px;
-line-height: 19px;
-top: 20px;
-    left: 31px;
+    line-height: 19px;
+    top: 20px;
+    left: 24px;
     padding: 5px 23px;
   }
 }
