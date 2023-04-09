@@ -1,0 +1,38 @@
+.about-inner {
+  margin-bottom: 150px;
+}
+
+.aboutus {
+  height: 366px;
+  width: 1048px;
+  margin: 30px 0 30px 0;
+  font-size: 45px;
+  line-height: 61px;
+}
+
+@media (max-width: 1199px) {
+  .about-inner {
+    margin-bottom: 120px;
+    padding-left: 17px;
+    width: 720px;
+  }
+  .aboutus {
+    width: 690px;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-inner {
+    width: 100%;
+    padding-left: 12px;
+  }
+  .aboutus {
+    margin-bottom: 80px;
+    width: 100%;
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
