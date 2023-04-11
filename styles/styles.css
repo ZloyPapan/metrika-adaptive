@@ -1,0 +1,81 @@
+@import "../styles/about.css";
+@import "../styles/button.css";
+@import "../styles/intro.css";
+@import "../styles/projects.css";
+@import "../styles/services.css";
+@import "../styles/reviews.css";
+@import "../styles/gallery.css";
+@import "../styles/contacts.css";
+@import "../styles/footer.css";
+
+head {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+p {
+  letter-spacing: -0.03em;
+}
+
+h1 {
+  width: 956px;
+  /* Height: 120px; */
+  font-size: 60px;
+  line-height: 60px;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-top: 19px;
+  font-size: 30px;
+  line-height: 41px;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.main-title {
+  margin-top: 128px;
+}
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    /* padding-left: 17px;
+    padding-right: 15px; */
+  }
+
+  .main-title {
+    width: 100%;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+ 
+  h2 {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .main-title {
+    width: 100%;
+    margin-top: 109px;
+    font-size: 30px;
+    line-height: 32px;
+  }
+}
