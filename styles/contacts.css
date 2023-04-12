@@ -99,6 +99,8 @@
     
   } 
   .contacts-title {
+    margin-top: 80px;
+    margin-bottom: 58px;
     font-size: 14px;
     line-height: 19px;
   }
@@ -111,7 +113,7 @@ line-height: 46px;
 
 
   .contact-mail {
-    /* width: 100%; */
+   margin-top: 20px;
     font-size: 35px;
     line-height: 46px;
   }
