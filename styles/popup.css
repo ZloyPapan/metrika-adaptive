@@ -1,0 +1,75 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.popup_open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup__content {
+  position: relative;
+  width: 777px;
+  height: 650px;
+  max-height: 100%;
+  overflow-y: auto;
+  padding: 94px 74px 86px 59px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.popup__close-btn {
+  position: absolute;
+  right: 34px;
+  top: 32px;
+  width: 50px;
+  height: 50px;
+  background-image: url(../resources/cross.png);
+  cursor: pointer;
+}
+
+.popup__send-btn {
+  margin-top: 80px;
+  display: block;
+  width: 100%;
+  height: 67px;
+
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  background-color: #ad1818;
+
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .popup__close-btn {
+    top: 40px;
+    right: 29px;
+    height: 30px;
+    width: 30px;
+    background-image: url(../resources/cross-mob.png);
+  }
+
+  .popup__content {
+    padding: 80px 16px 80px 16px;
+  }
+}
