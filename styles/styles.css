@@ -9,6 +9,8 @@
 @import "../styles/footer.css";
 @import "../styles/popup.css";
 @import "../styles/order.css";
+@import "../styles/header.css";
+@import "../styles/burger.css";
 
 head {
   scroll-behavior: smooth;
@@ -58,7 +60,7 @@ h3 {
 }
 
 .main-title {
-  margin-top: 128px;
+  margin-top: 35px;
 }
 @media (max-width: 1199px) {
   .container {
@@ -81,7 +83,7 @@ h3 {
   }
   .main-title {
     width: 100%;
-    margin-top: 109px;
+  
     font-size: 30px;
     line-height: 32px;
   }

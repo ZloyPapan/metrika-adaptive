@@ -17,7 +17,30 @@
 </head>
 
 <body class="">
-  <header>
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo"></div>
+        <nav class="nav-main">
+          <a href="#about" class="nav__main">О НАС</a>
+          <a href="#project" class="nav__main">ПРОЕКТЫ</a>
+          <a href="#services_list" class="nav__main">УСЛУГИ</a>
+          <a href="#contacts" class="nav__main">КОНТАКТЫ</a>
+        </nav>
+        <button class="js-burger-btn burger-btn"></button>
+      </div>
+      <div class="js-burger burger">
+        <div class="js-burger__content burger__content">
+          <div class="logo"></div>
+          <nav class="burger-nav-main">
+            <a href="#about" class="burger-nav__main">О НАС</a>
+            <a href="#project" class="burger-nav__main">ПРОЕКТЫ</a>
+            <a href="#services_list" class="burger-nav__main">УСЛУГИ</a>
+            <a href="#contacts" class="burger-nav__main">КОНТАКТЫ</a>
+          </nav>
+        </div>
+      </div>
+    </div>
   </header>
   <main>
     <section class="description">
@@ -125,9 +148,11 @@
                 <p class="order__title">Заказать услугу</p>
                 <p class="order__text">Заполните форму, мы свяжемся с вами в течение суток
                 </p>
-                <input class="order__input" type="text" placeholder="Имя">
-                <input class="order__input" type="text" placeholder="Электронная почта">
-                <input class="order__input" type="text" placeholder="Номер телефона">
+                <form action="" class="order__form">
+                  <input class="order__input" type="text" name="name" placeholder="Имя">
+                  <input class="order__input" type="email" name="email" placeholder="Электронная почта">
+                  <input class="order__input" type="tel" name="phone" placeholder="Номер телефона">
+                </form>
                 <button class="popup__send-btn">Отправить</button>
                 <div class="js-popup__close-btn popup__close-btn"></div>
               </div>
@@ -185,7 +210,7 @@
         <div class="gallery__slide gallery__slide_active">
           <img class="gallery-img" src="resources/forest.jpg" alt="">
           <div class="container">
-            <p class="gallery__img-text">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+            <p class="gallery__img-text">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
           </div>
         </div>
         <div class="gallery__slide">
@@ -219,10 +244,10 @@
       <div class="container">
         <h2 id="contacts" class="contacts-title">КОНТАКТЫ</h2>
         <div class="contact-wrapper">
-            <a href="tel:+7 935  895-45-35" class="contact-phone">+7 935  895-45-35</a>
-            <div class="contact-mail">
-              <a href="https://t.me/toozemoon" target="_blank" class="contact-link">Telegram</a>
-            </div>
+          <a href="tel:+7 935  895-45-35" class="contact-phone">+7 935 895-45-35</a>
+          <div class="contact-mail">
+            <a href="https://t.me/toozemoon" target="_blank" class="contact-link">Telegram</a>
+          </div>
         </div>
       </div>
     </section>
@@ -244,6 +269,7 @@
   </footer>
   <script src="gallery.js"></script>
   <script src="popup.js"></script>
+  <script src="burger.js"></script>
 </body>
 
 </html>
