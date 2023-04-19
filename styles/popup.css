@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
   background-color: rgba(0, 0, 0, 0.7);
   opacity: 0;
   visibility: hidden;
@@ -35,7 +36,7 @@
   top: 32px;
   width: 50px;
   height: 50px;
-  background-image: url(../resources/cross.png);
+  background-image: url("../resources/cross.png");
   cursor: pointer;
 }
 
@@ -66,7 +67,7 @@
     right: 29px;
     height: 30px;
     width: 30px;
-    background-image: url(../resources/cross-mob.png);
+    background-image: url("../resources/cross-mob.png");
   }
 
   .popup__content {
