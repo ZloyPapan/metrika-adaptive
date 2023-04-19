@@ -61,17 +61,21 @@
   width: 100%;
 }
 
-.gallery__control-prev {
-  background-color: rgba(28, 28, 28, 0);
-  border: medium none;
-  padding: 0;
-}
-
+.gallery__control-prev,
 .gallery__control-next {
   background-color: rgba(28, 28, 28, 0);
   border: medium none;
-  margin-left: 35px;
   padding: 0;
+  cursor: pointer;
+}
+
+.gallery__control-next {
+  margin-left: 35px;
+}
+
+.gallery__control-prev:hover,
+.gallery__control-next:hover {
+opacity: 0.5;
 }
 
 @media (max-width: 1199px) {
