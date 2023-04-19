@@ -117,5 +117,9 @@
     bottom: 50%;
   }
 
+  .gallery__slides {
+    height: 408px;
+  }
+
 
 }

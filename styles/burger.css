@@ -85,7 +85,7 @@
   .burger-btn {
     display: block;
     width: 50px;
-    right: 15px;
+    
     position: relative;
     background: none;
     border: none;
@@ -112,6 +112,7 @@
     position: absolute;
    top: -5px;
     height: 34px;
+    right: 15px;
  
     background-image: url("../resources/cross-mob.png");
     background-repeat: no-repeat;

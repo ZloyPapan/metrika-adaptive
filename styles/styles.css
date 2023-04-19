@@ -12,7 +12,7 @@
 @import "../styles/header.css";
 @import "../styles/burger.css";
 
-head {
+html {
   scroll-behavior: smooth;
 }
 
@@ -76,14 +76,13 @@ h3 {
 }
 
 @media (max-width: 767px) {
- 
   h2 {
     font-size: 14px;
     line-height: 19px;
   }
   .main-title {
     width: 100%;
-  
+
     font-size: 30px;
     line-height: 32px;
   }
