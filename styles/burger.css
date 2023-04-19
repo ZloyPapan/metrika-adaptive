@@ -110,7 +110,7 @@
 
   .burger-btn_open {
     position: absolute;
-   
+   top: -5px;
     height: 34px;
  
     background-image: url("../resources/cross-mob.png");

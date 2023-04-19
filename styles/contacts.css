@@ -17,7 +17,7 @@
 .contact-phone {
   display: block;
   width: 50%;
- 
+
   font-size: 60px;
   line-height: 60px;
   text-decoration: none;
@@ -40,19 +40,18 @@
 
 .contact-mail {
   width: 50%;
- 
+
   display: inline-block;
   font-size: 60px;
   line-height: 60px;
-  
-
-  opacity: 0.5;
+  color: #121212;
 }
 
 .contact-link {
   text-decoration: none;
   color: #121212;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid #121212;
+  opacity: 50%;
 }
 .contact-mail::before {
   content: "";
@@ -60,44 +59,35 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 26px;
- 
-  width: 24px;
-  height: 24px;
-  background-image: url(../resources/mail.png);
+  margin-bottom: 14px;
+  margin-left: -3px;
+  width: 30px;
+  height: 30px;
+  background-image: url("../resources/tg.png");
 }
 
- @media (max-width: 1199px) {
+@media (max-width: 1199px) {
   .contacts-title {
     margin-top: 120px;
     margin-bottom: 73px;
   }
-
-
 
   .contact-phone {
     font-size: 45px;
     line-height: 60px;
   }
 
-
   .contact-mail {
-    
     font-size: 45px;
     line-height: 60px;
   }
-
-
 }
 
 @media (max-width: 767px) {
   .contact-wrapper {
     display: block;
     flex-wrap: wrap;
-    
-    
-    
-  } 
+  }
   .contacts-title {
     margin-top: 80px;
     margin-bottom: 58px;
@@ -108,14 +98,12 @@
   .contact-phone {
     width: 100%;
     font-size: 35px;
-line-height: 46px;
-  }
-
-
-  .contact-mail {
-   margin-top: 20px;
-    font-size: 35px;
     line-height: 46px;
   }
 
+  .contact-mail {
+    margin-top: 20px;
+    font-size: 35px;
+    line-height: 46px;
+  }
 }
